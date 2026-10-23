@@ -1,0 +1,8 @@
+# links people reported / mail gateway copies
+https://www.google.com/search?q=python
+https://github.com/pallets/flask
+https://www.wikipedia.org/
+http://192.168.1.105/login/bank-verify.php
+http://secure-paypal-login.account-verify.example.tk/signin?user=update
+http://amaz0n-support.com-login.xyz/verify/account/password
+https://docs.python.org/3/
