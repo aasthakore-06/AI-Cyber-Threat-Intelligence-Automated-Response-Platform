@@ -32,13 +32,6 @@ Upload a Linux `auth.log`. The parser reads the `Failed password` / `Accepted pa
 
 ## Run it
 
-### Docker (PostgreSQL + backend + frontend)
-```bash
-docker compose up --build
-```
-Dashboard http://localhost:3000, API docs http://localhost:8000/docs, login `admin` / `admin123` (set in `compose.yaml`).
-
-### Without Docker
 ```bash
 cd backend
 pip install -r requirements.txt
