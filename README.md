@@ -79,10 +79,10 @@ frontend/src/ pages/ components/ services/api.js
 docs/         ARCHITECTURE.md, API_CONTRACT.md
 ```
 
-## Limits (say these in the viva)
+## Limits 
 - "Blocking" writes to a `blocklist` table; no real firewall is touched.
 - Honeytokens are fake strings/routes you list in the `HONEYTOKENS` setting (`.env` / `compose.yaml`). They are copied into the `honeytokens` table at startup and the detector reads that table. Nothing is pre-planted if the setting is empty.
 - Only SSH-style auth logs are parsed; syslog has no year so the current year is assumed.
 - Isolation Forest is fitted on the uploaded log plus a small synthetic baseline; thresholds were tuned on our synthetic data only.
-- Adaptive scoring (refitting weights) and SHAP are **not** built. Analyst feedback is stored with the alert features so they can be added later (future scope).
+- Adaptive scoring (refitting weights) and SHAP are **not** built. Analyst feedback is stored with the alert features so they can be added later future scope.
 - Single admin account, no roles.
